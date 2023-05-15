@@ -20,6 +20,7 @@ pipeline {
               }
             }
         }
+        
         stage('deploy to k8s') {
             steps{
                 script {
